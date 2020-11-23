@@ -51,3 +51,8 @@ Output:
     }
 ]
 ```
+<br><br>
+Typy kasztanów
+```
+GET https://kasztanapi.herokuapp.com/api/types.php
+```

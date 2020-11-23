@@ -17,7 +17,7 @@ Output:
     }
 ]
 ```
-
+<br><br>
 ```
 GET https://kasztanapi.herokuapp.com/api/weight.php?v=4&ag=false
 ```
@@ -33,7 +33,7 @@ Output:
 ]
 ```
 Dane podane w gramach
-
+<br><br>
 ```
 GET https://kasztanapi.herokuapp.com/api/weight.php?v=4&ag=true
 ```

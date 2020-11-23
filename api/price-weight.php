@@ -2,9 +2,9 @@
 header('Access-Control-Allow-Origin: *', false);
 header('Content-Type: application/json', false);
 $kasztanprice = 0;
-if ($_GET["v"] < 250000) {
-    $kasztanadder = 0.6 * $_GET["v"];
-    $kasztanprice += $kasztanadder;
+if ($_GET["v"] < 300000) {
+    $kasztanadder = $_GET["v"] / 15;
+    $kasztanprice += $kasztanadder * 0.6;
 } else {
     $kasztanprice = "Prosimy o kontakt z KasztanSupport w celu uzyskania ceny";
 }

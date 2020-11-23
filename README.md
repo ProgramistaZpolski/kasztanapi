@@ -2,6 +2,7 @@
 API, ktore podaje cenę i wagę kasztanów<br>
 Dostępne na https://kasztanapi.herokuapp.com/ <br><br>
 ### Przykłady użycia
+Cena 4 kasztanów
 ```
 GET https://kasztanapi.herokuapp.com/api/price.php?v=4
 ```
@@ -18,6 +19,7 @@ Output:
 ]
 ```
 <br><br>
+Waga 4 kasztanów
 ```
 GET https://kasztanapi.herokuapp.com/api/weight.php?v=4&ag=false
 ```
@@ -34,6 +36,7 @@ Output:
 ```
 Dane podane w gramach
 <br><br>
+Waga 4 kasztanów, przetłumaczona na angielski
 ```
 GET https://kasztanapi.herokuapp.com/api/weight.php?v=4&ag=true
 ```
